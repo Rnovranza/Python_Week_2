@@ -99,11 +99,17 @@ The describe() method in pandas is the primary tool for generating descriptive s
 #### 3.	Data Aggregation
 Data aggregation involves combining or grouping data points based on a specific criterion and applying a function to calculate a single value for the group.
 Common Aggregation Functions:
+
 •	mean(): Computes the average value in a column or group.
+
 •	median(): Determines the middle value in a sorted list of values within a column or group (useful for skewed data).
+
 •	mode(): The most frequent value in the data.
+
 •	min(): Finds the minimum value in a column or group.
+
 •	max(): Identifies the maximum value in a column or group.
+
 
 ![image](https://github.com/Rnovranza/Python_Week_2/assets/165742717/51d5a2ea-7546-4cae-8394-e21ca8e1a195)
 
@@ -111,8 +117,11 @@ Common Aggregation Functions:
 
 #### 4.	Finding and Counting Distinct Values
 Finding and counting distinct values refers to the process of identifying and calculating the number of unique elements within a dataset, typically focusing on a single column in a pandas DataFrame.
+
 •	unique(): This function is used to identify and return all the distinct values (unique elements) present in a specific column.
+
 •	nunique(): This is a pandas-specific function that directly calculates the number of unique values (distinct elements) within a DataFrame column.
+
 
 ![image](https://github.com/Rnovranza/Python_Week_2/assets/165742717/d0dec0ee-93af-4ab0-8dd7-86d5e3e7348c)
 
