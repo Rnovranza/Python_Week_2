@@ -52,7 +52,7 @@ DataFrame in pandas is a fundamental data structure specifically designed for da
 In the realm of data analysis using Python's pandas library, converting a CSV (Comma-Separated Values) file into a pandas DataFrame is a fundamental step.
 The operations that can be used on CSV data loaded into a DataFrame are as follows :
 
-###1.	Reading and Loading CSV Data
+#### 1.	Reading and Loading CSV Data
 
 Use the pd.read_csv() function to read data from a CSV file into a DataFrame.
 
@@ -88,14 +88,14 @@ Once you have your DataFrame loaded, you can use various methods to explore its 
 ![image](https://github.com/Rnovranza/Python_Week_2/assets/165742717/ff0cfaf9-5193-47ea-a976-46a0e96b333f)
 
 
-###2.	Descriptive Statistics
+#### 2.	Descriptive Statistics
 Descriptive statistics focus on numerical columns within your DataFrame. They provide a concise overview of the data distribution. 
 The describe() method in pandas is the primary tool for generating descriptive statistics for numerical columns in a DataFrame.
 
 ![image](https://github.com/Rnovranza/Python_Week_2/assets/165742717/e247400a-8109-475d-ae1c-6fc94e02c294)
 
 
-###3.	Data Aggregation
+#### 3.	Data Aggregation
 Data aggregation involves combining or grouping data points based on a specific criterion and applying a function to calculate a single value for the group.
 Common Aggregation Functions:
 •	mean(): Computes the average value in a column or group.
@@ -107,7 +107,7 @@ Common Aggregation Functions:
 ![image](https://github.com/Rnovranza/Python_Week_2/assets/165742717/a6b22b82-8aaa-470e-b6e0-ba38b62f6bd6)
 
 
-###4.	Finding and Counting Distinct Values
+#### 4.	Finding and Counting Distinct Values
 Finding and counting distinct values refers to the process of identifying and calculating the number of unique elements within a dataset, typically focusing on a single column in a pandas DataFrame.
 •	unique(): This function is used to identify and return all the distinct values (unique elements) present in a specific column.
 •	nunique(): This is a pandas-specific function that directly calculates the number of unique values (distinct elements) within a DataFrame column.
