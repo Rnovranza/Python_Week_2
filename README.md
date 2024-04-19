@@ -60,30 +60,30 @@ Use the pd.read_csv() function to read data from a CSV file into a DataFrame.
 
 Once you have your DataFrame loaded, you can use various methods to explore its content:
 
-•	df.head(): View the first 5 rows by default.
+-	df.head(): View the first 5 rows by default.
 
 ![image](https://github.com/Rnovranza/Python_Week_2/assets/165742717/700cdeff-0f1d-4aab-91b9-a9101e0e2b05)
 
-•	df.tail(): View the last 5 rows by default.
+-	df.tail(): View the last 5 rows by default.
 
 ![image](https://github.com/Rnovranza/Python_Week_2/assets/165742717/0fcadcdb-5da5-469e-a660-69329eeea4a9)
 
 
-•	df.info(): Get summary information about the DataFrame (data types, non-null values, etc.).
+-	df.info(): Get summary information about the DataFrame (data types, non-null values, etc.).
 
 ![image](https://github.com/Rnovranza/Python_Week_2/assets/165742717/d1e52720-5c70-4301-b846-76b6e0da9115)
 
 
-•	df.shape: returns a tuple containing two integers representing the dimensions of the DataFrame.
+-	df.shape: returns a tuple containing two integers representing the dimensions of the DataFrame.
 
 ![image](https://github.com/Rnovranza/Python_Week_2/assets/165742717/f63e983e-b29a-49dc-8790-ef19c25e3c1d)
 
 
-•	df.columns: retrieves an Index object containing the labels for each column in the DataFrame.
+-	df.columns: retrieves an Index object containing the labels for each column in the DataFrame.
 
 ![image](https://github.com/Rnovranza/Python_Week_2/assets/165742717/bb333f24-9350-4b7f-b0a2-9f731130e5d0)
 
-•	df.index: returns the Index object associated with the rows of the DataFrame.
+-	df.index: returns the Index object associated with the rows of the DataFrame.
 
 ![image](https://github.com/Rnovranza/Python_Week_2/assets/165742717/ff0cfaf9-5193-47ea-a976-46a0e96b333f)
 
@@ -100,15 +100,15 @@ The describe() method in pandas is the primary tool for generating descriptive s
 Data aggregation involves combining or grouping data points based on a specific criterion and applying a function to calculate a single value for the group.
 Common Aggregation Functions:
 
-•	mean(): Computes the average value in a column or group.
+-	mean(): Computes the average value in a column or group.
 
-•	median(): Determines the middle value in a sorted list of values within a column or group (useful for skewed data).
+-	median(): Determines the middle value in a sorted list of values within a column or group (useful for skewed data).
 
-•	mode(): The most frequent value in the data.
+-	mode(): The most frequent value in the data.
 
-•	min(): Finds the minimum value in a column or group.
+-	min(): Finds the minimum value in a column or group.
 
-•	max(): Identifies the maximum value in a column or group.
+-	max(): Identifies the maximum value in a column or group.
 
 
 ![image](https://github.com/Rnovranza/Python_Week_2/assets/165742717/51d5a2ea-7546-4cae-8394-e21ca8e1a195)
@@ -118,9 +118,9 @@ Common Aggregation Functions:
 #### 4.	Finding and Counting Distinct Values
 Finding and counting distinct values refers to the process of identifying and calculating the number of unique elements within a dataset, typically focusing on a single column in a pandas DataFrame.
 
-•	unique(): This function is used to identify and return all the distinct values (unique elements) present in a specific column.
+-	unique(): This function is used to identify and return all the distinct values (unique elements) present in a specific column.
 
-•	nunique(): This is a pandas-specific function that directly calculates the number of unique values (distinct elements) within a DataFrame column.
+-	nunique(): This is a pandas-specific function that directly calculates the number of unique values (distinct elements) within a DataFrame column.
 
 
 ![image](https://github.com/Rnovranza/Python_Week_2/assets/165742717/d0dec0ee-93af-4ab0-8dd7-86d5e3e7348c)
