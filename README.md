@@ -40,3 +40,6 @@ Since we only appended a value to the list without reassigning the variable, the
 ## Numpy
 NumPy is a Python library that provides multidimensional array objects, various derived objects (such as masked arrays and matrices), and various routines for fast operations on arrays, including math, logic, shape manipulation, sorting, selection, I/O, discrete Fourier transform, basic linear algebra, basic statistical operations, random simulation, and more.
 
+## Data Frame
+DataFrame is a fundamental data structure used in Python for data analysis and manipulation. It's like a powerful spreadsheet on steroids, but with the added benefits of programming logic and automation. A DataFrame is indeed a collection of Series, where each Series represents a single column of data.
+![image](https://github.com/Rnovranza/Python_Week_2/assets/165742717/d415adad-68b8-467a-9904-cd9b28196706)
