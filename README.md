@@ -48,3 +48,52 @@ DataFrame in pandas is a fundamental data structure specifically designed for da
 
 ![image](https://github.com/Rnovranza/Python_Week_2/assets/165742717/467ba473-e5a8-4809-8ec6-67c13e3977bd)
 
+It can look at the proportion of the Gender column or count the number of unique values in the "Gender" column of the DataFrame (called df). The result will return a Pandas Series containing the number of occurrences of each unique value, with the value as the index and the number of occurrences as the value in the Series. This gives a good understanding of the distribution of values in the "Gender" column of the DataFrame.
+
+![image](https://github.com/Rnovranza/Python_Week_2/assets/165861920/32ee872d-255e-41f9-b7c1-bc89b47f490e)
+
+Can select specific columns from a DataFrame. The result will be a new DataFrame containing only the selected columns. By using this syntax, it is easier to select a specific subset of DataFrame columns that match the needs of data analysis or processing.
+
+![image](https://github.com/Rnovranza/Python_Week_2/assets/165861920/b6292164-b22d-486a-a3fb-4f7ad1b9ea9f)
+
+![image](https://github.com/Rnovranza/Python_Week_2/assets/165861920/50d04578-19d5-4d89-8f7c-cd30d3fbb7e6)
+
+In Python, when you want to create conditions or criteria in your code, you can use comparison operators and logical operators. Here is a brief explanation of these operators:
+
+1. Comparison Operators:
+- `>` (more than): This operator is used to check if the value on the left is greater than the value on the right.
+- `<` (less than): This operator is used to check if the value on the left is less than the value on the right.
+- `>=` (greater than or equal to): This operator is used to check if the value on the left is greater than or equal to the value on the right.
+- `<=` (less than or equal to): This operator is used to check if the value on the left is less than or equal to the value on the right.
+- `==` (equal to): This operator is used to check if the value on the left is equal to the value on the right.
+- `!=` (not equal to): This operator is used to check if the value on the left is not equal to the value on the right.
+
+2. Logical Operators:
+- `and`: This operator returns True if both compared conditions are true.
+
+- `or`: This operator returns True if one or both of the compared conditions are true.
+
+- `not`: This operator is used to reverse the truth value of a condition.
+
+![image](https://github.com/Rnovranza/Python_Week_2/assets/165861920/87212435-b4ec-4459-84a5-7c298c965409)
+
+![image](https://github.com/Rnovranza/Python_Week_2/assets/165861920/a3897cc2-4d5d-4561-8233-c6165b03de1c)
+
+![image](https://github.com/Rnovranza/Python_Week_2/assets/165861920/04536fc9-d980-4ec7-8924-3ff2058ec2ea)
+
+![image](https://github.com/Rnovranza/Python_Week_2/assets/165861920/39d8dfdd-b962-4514-b809-075c445aa793)
+
+![image](https://github.com/Rnovranza/Python_Week_2/assets/165861920/3b52c309-e630-4f72-9365-fb6d25909953)
+
+![image](https://github.com/Rnovranza/Python_Week_2/assets/165861920/93c0d87d-c45c-45b7-905f-5d9c3b3b8b36)
+
+![image](https://github.com/Rnovranza/Python_Week_2/assets/165861920/0f85f7e7-9f46-4f06-b2de-66e7e6774b80)
+
+
+
+
+
+
+
+
+
