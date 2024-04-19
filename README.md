@@ -47,6 +47,58 @@ NumPy is a Python library that provides multidimensional array objects, various 
 DataFrame in pandas is a fundamental data structure specifically designed for data analysis and manipulation in Python. It essentially acts as a powerful spreadsheet on steroids but with the added benefits of programming logic and automation. A DataFrame is indeed a collection of Series, where each Series represents a single column of data.
 
 ![image](https://github.com/Rnovranza/Python_Week_2/assets/165742717/467ba473-e5a8-4809-8ec6-67c13e3977bd)
+![image](https://github.com/Rnovranza/Python_Week_2/assets/165742717/e7c8665d-22a5-4fd8-8553-b2e0637702c4)
+
+In the realm of data analysis using Python's pandas library, converting a CSV (Comma-Separated Values) file into a pandas DataFrame is a fundamental step.
+The operations that can be used on CSV data loaded into a DataFrame are as follows :
+
+1.	Reading and Loading CSV Data
+Use the pd.read_csv() function to read data from a CSV file into a DataFrame.
+![image](https://github.com/Rnovranza/Python_Week_2/assets/165742717/700cdeff-0f1d-4aab-91b9-a9101e0e2b05)
+
+Once you have your DataFrame loaded, you can use various methods to explore its content:
+•	df.head(): View the first 5 rows by default.
+![image](https://github.com/Rnovranza/Python_Week_2/assets/165742717/0fcadcdb-5da5-469e-a660-69329eeea4a9)
+
+•	df.tail(): View the last 5 rows by default.
+![image](https://github.com/Rnovranza/Python_Week_2/assets/165742717/d1e52720-5c70-4301-b846-76b6e0da9115)
+
+•	df.info(): Get summary information about the DataFrame (data types, non-null values, etc.).
+![image](https://github.com/Rnovranza/Python_Week_2/assets/165742717/f63e983e-b29a-49dc-8790-ef19c25e3c1d)
+
+•	df.shape: returns a tuple containing two integers representing the dimensions of the DataFrame.
+![image](https://github.com/Rnovranza/Python_Week_2/assets/165742717/bb333f24-9350-4b7f-b0a2-9f731130e5d0)
+
+•	df.columns: retrieves an Index object containing the labels for each column in the DataFrame.
+![image](https://github.com/Rnovranza/Python_Week_2/assets/165742717/ff0cfaf9-5193-47ea-a976-46a0e96b333f)
+
+•	df.index: returns the Index object associated with the rows of the DataFrame.
+![image](https://github.com/Rnovranza/Python_Week_2/assets/165742717/d884bf10-2877-4306-9344-386e68e42e56)
+
+3.	Descriptive Statistics
+Descriptive statistics focus on numerical columns within your DataFrame. They provide a concise overview of the data distribution. 
+The describe() method in pandas is the primary tool for generating descriptive statistics for numerical columns in a DataFrame.
+![image](https://github.com/Rnovranza/Python_Week_2/assets/165742717/e247400a-8109-475d-ae1c-6fc94e02c294)
+
+
+5.	Data Aggregation
+Data aggregation involves combining or grouping data points based on a specific criterion and applying a function to calculate a single value for the group.
+Common Aggregation Functions:
+•	mean(): Computes the average value in a column or group.
+•	median(): Determines the middle value in a sorted list of values within a column or group (useful for skewed data).
+•	mode(): The most frequent value in the data.
+•	min(): Finds the minimum value in a column or group.
+•	max(): Identifies the maximum value in a column or group.
+![image](https://github.com/Rnovranza/Python_Week_2/assets/165742717/a6b22b82-8aaa-470e-b6e0-ba38b62f6bd6)
+
+
+7.	Finding and Counting Distinct Values
+Finding and counting distinct values refers to the process of identifying and calculating the number of unique elements within a dataset, typically focusing on a single column in a pandas DataFrame.
+•	unique(): This function is used to identify and return all the distinct values (unique elements) present in a specific column.
+•	nunique(): This is a pandas-specific function that directly calculates the number of unique values (distinct elements) within a DataFrame column.
+![image](https://github.com/Rnovranza/Python_Week_2/assets/165742717/d0dec0ee-93af-4ab0-8dd7-86d5e3e7348c)
+
+
 
 It can look at the proportion of the Gender column or count the number of unique values in the "Gender" column of the DataFrame (called df). The result will return a Pandas Series containing the number of occurrences of each unique value, with the value as the index and the number of occurrences as the value in the Series. This gives a good understanding of the distribution of values in the "Gender" column of the DataFrame.
 
