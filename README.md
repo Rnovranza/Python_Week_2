@@ -36,3 +36,7 @@ The memory address of the variable is passed to the function. Changes to the par
 ![Screenshot (779)](https://github.com/Rnovranza/Python_Week_2/assets/134476980/cf43493b-a384-44ab-9509-beb97fb47902)
 ###### 
 Since we only appended a value to the list without reassigning the variable, there is no decoupling or recoupling taking place. Both the inner and outer variables still refer to the same object, while the content of that object has been altered by the addition of the new value.
+
+## Numpy
+NumPy is a Python library that provides multidimensional array objects, various derived objects (such as masked arrays and matrices), and various routines for fast operations on arrays, including math, logic, shape manipulation, sorting, selection, I/O, discrete Fourier transform, basic linear algebra, basic statistical operations, random simulation, and more.
+
