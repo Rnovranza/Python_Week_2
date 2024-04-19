@@ -92,7 +92,8 @@ Once you have your DataFrame loaded, you can use various methods to explore its 
 Descriptive statistics focus on numerical columns within your DataFrame. They provide a concise overview of the data distribution. 
 The describe() method in pandas is the primary tool for generating descriptive statistics for numerical columns in a DataFrame.
 
-![image](https://github.com/Rnovranza/Python_Week_2/assets/165742717/e247400a-8109-475d-ae1c-6fc94e02c294)
+![image](https://github.com/Rnovranza/Python_Week_2/assets/165742717/ad9ee9e5-4f56-43c3-938b-da57b32804c8)
+
 
 
 #### 3.	Data Aggregation
@@ -104,7 +105,8 @@ Common Aggregation Functions:
 •	min(): Finds the minimum value in a column or group.
 •	max(): Identifies the maximum value in a column or group.
 
-![image](https://github.com/Rnovranza/Python_Week_2/assets/165742717/a6b22b82-8aaa-470e-b6e0-ba38b62f6bd6)
+![image](https://github.com/Rnovranza/Python_Week_2/assets/165742717/51d5a2ea-7546-4cae-8394-e21ca8e1a195)
+
 
 
 #### 4.	Finding and Counting Distinct Values
