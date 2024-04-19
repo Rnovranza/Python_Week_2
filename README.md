@@ -70,9 +70,7 @@ In Python, when you want to create conditions or criteria in your code, you can 
 
 2. Logical Operators:
 - `and`: This operator returns True if both compared conditions are true.
-
 - `or`: This operator returns True if one or both of the compared conditions are true.
-
 - `not`: This operator is used to reverse the truth value of a condition.
 
 ![image](https://github.com/Rnovranza/Python_Week_2/assets/165861920/87212435-b4ec-4459-84a5-7c298c965409)
@@ -88,6 +86,43 @@ In Python, when you want to create conditions or criteria in your code, you can 
 ![image](https://github.com/Rnovranza/Python_Week_2/assets/165861920/93c0d87d-c45c-45b7-905f-5d9c3b3b8b36)
 
 ![image](https://github.com/Rnovranza/Python_Week_2/assets/165861920/0f85f7e7-9f46-4f06-b2de-66e7e6774b80)
+
+## Random Library
+The random library in Python is a built-in module that provides various functions to perform random operations. It is used to generate random numbers, randomly select items from a list, and randomize the order of elements in a list or array
+
+![image](https://github.com/Rnovranza/Python_Week_2/assets/165861920/106ee879-5fd3-413a-a616-d82cb799cb39)
+
+## Datetime Library
+The datetime module can be used to work with dates and times, including
+1. Creating random dates and times
+2. Creating a Random Time within a Specified Time Range
+3. Combining Date and Time
+
+![image](https://github.com/Rnovranza/Python_Week_2/assets/165861920/f25a972d-3965-45c2-9f41-4d61771ea56c)
+
+Then the format can also be changed according to your needs.
+
+![image](https://github.com/Rnovranza/Python_Week_2/assets/165861920/5a082ace-aad6-407d-a035-2689b4e0ded2)
+
+## txt file - open, read, close
+Importing text files into Python is a commonly used process in data analysis, text processing, and many other applications. In Python, you can open, read, and close text files using some built-in functions (with a .txt extension).
+
+Open
+Open a text file using the open() function and need to provide the file name and access mode. The r access mode is used to read the file.
+
+![image](https://github.com/Rnovranza/Python_Week_2/assets/165861920/6ce5e1d7-eb36-437e-b7d2-e5196f792adc)
+
+Read
+After opening the file, it can read its contents using the read() method or other methods such as readline() to read line by line.
+
+![image](https://github.com/Rnovranza/Python_Week_2/assets/165861920/dcc83741-260c-4e50-8565-75b9b6d50070)
+
+Close
+After finishing reading or performing other operations on a file, it is important to close it using the close() method.
+
+![image](https://github.com/Rnovranza/Python_Week_2/assets/165861920/26151079-60da-4fe1-9a8d-0f04aee076fe)
+
+
 
 
 
