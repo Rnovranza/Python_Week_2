@@ -42,4 +42,6 @@ NumPy is a Python library that provides multidimensional array objects, various 
 
 ## Data Frame
 DataFrame is a fundamental data structure used in Python for data analysis and manipulation. It's like a powerful spreadsheet on steroids, but with the added benefits of programming logic and automation. A DataFrame is indeed a collection of Series, where each Series represents a single column of data.
-![image](https://github.com/Rnovranza/Python_Week_2/assets/165742717/d415adad-68b8-467a-9904-cd9b28196706)
+
+![image](https://github.com/Rnovranza/Python_Week_2/assets/165742717/467ba473-e5a8-4809-8ec6-67c13e3977bd)
+
