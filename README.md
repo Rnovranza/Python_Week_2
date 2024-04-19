@@ -47,20 +47,25 @@ NumPy is a Python library that provides multidimensional array objects, various 
 DataFrame in pandas is a fundamental data structure specifically designed for data analysis and manipulation in Python. It essentially acts as a powerful spreadsheet on steroids but with the added benefits of programming logic and automation. A DataFrame is indeed a collection of Series, where each Series represents a single column of data.
 
 ![image](https://github.com/Rnovranza/Python_Week_2/assets/165742717/467ba473-e5a8-4809-8ec6-67c13e3977bd)
-![image](https://github.com/Rnovranza/Python_Week_2/assets/165742717/e7c8665d-22a5-4fd8-8553-b2e0637702c4)
+
 
 In the realm of data analysis using Python's pandas library, converting a CSV (Comma-Separated Values) file into a pandas DataFrame is a fundamental step.
 The operations that can be used on CSV data loaded into a DataFrame are as follows :
 
 1.	Reading and Loading CSV Data
 Use the pd.read_csv() function to read data from a CSV file into a DataFrame.
-![image](https://github.com/Rnovranza/Python_Week_2/assets/165742717/700cdeff-0f1d-4aab-91b9-a9101e0e2b05)
+
+![image](https://github.com/Rnovranza/Python_Week_2/assets/165742717/e7c8665d-22a5-4fd8-8553-b2e0637702c4)
 
 Once you have your DataFrame loaded, you can use various methods to explore its content:
 •	df.head(): View the first 5 rows by default.
-![image](https://github.com/Rnovranza/Python_Week_2/assets/165742717/0fcadcdb-5da5-469e-a660-69329eeea4a9)
+
+![image](https://github.com/Rnovranza/Python_Week_2/assets/165742717/700cdeff-0f1d-4aab-91b9-a9101e0e2b05)
 
 •	df.tail(): View the last 5 rows by default.
+
+![image](https://github.com/Rnovranza/Python_Week_2/assets/165742717/0fcadcdb-5da5-469e-a660-69329eeea4a9)
+
 ![image](https://github.com/Rnovranza/Python_Week_2/assets/165742717/d1e52720-5c70-4301-b846-76b6e0da9115)
 
 •	df.info(): Get summary information about the DataFrame (data types, non-null values, etc.).
