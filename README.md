@@ -107,17 +107,17 @@ Then the format can also be changed according to your needs.
 ## txt file - open, read, close
 Importing text files into Python is a commonly used process in data analysis, text processing, and many other applications. In Python, you can open, read, and close text files using some built-in functions (with a .txt extension).
 
-Open
+`Open`
 Open a text file using the open() function and need to provide the file name and access mode. The r access mode is used to read the file.
 
 ![image](https://github.com/Rnovranza/Python_Week_2/assets/165861920/6ce5e1d7-eb36-437e-b7d2-e5196f792adc)
 
-Read
+`Read`
 After opening the file, it can read its contents using the read() method or other methods such as readline() to read line by line.
 
 ![image](https://github.com/Rnovranza/Python_Week_2/assets/165861920/dcc83741-260c-4e50-8565-75b9b6d50070)
 
-Close
+`Close`
 After finishing reading or performing other operations on a file, it is important to close it using the close() method.
 
 ![image](https://github.com/Rnovranza/Python_Week_2/assets/165861920/26151079-60da-4fe1-9a8d-0f04aee076fe)
