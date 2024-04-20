@@ -100,7 +100,7 @@ Negative indexing in NumPy allows you to access elements of an array relative to
 ### Data Series
 data series is a one-dimensional labeled array you can use to work with data. It's part of the powerful pandas library commonly used for data analysis in Python.
 
-(gambar)
+![Screenshot 2024-04-20 103923](https://github.com/Rnovranza/Python_Week_2/assets/101807673/3cab6081-8dc5-4840-96a4-c874544df348)
 
 #### Implicit and Explicit Indexing
 Indexing refers to how you label and retrieve data elements. There are two main types of indexing: implicit and explicit.
@@ -115,12 +115,12 @@ Explicit Index:
 - Offers more meaningful and descriptive way to access data.
 - You can set a column or another series as the index.
 
-(Gambar)
+![Screenshot 2024-04-20 104037](https://github.com/Rnovranza/Python_Week_2/assets/101807673/9d55508d-4a08-4f32-92ea-e691155b70eb)
 
 #### Data Slicing in Data Series
 Data slicing in a data series (part of the pandas library) in Jupyter notebooks allows you to extract specific subsets of data based on certain criteria. It's a powerful tool for manipulating and analyzing your data.
 
-(gambar)
+![Screenshot 2024-04-20 104133](https://github.com/Rnovranza/Python_Week_2/assets/101807673/4d82a0d0-cb54-4f0e-9bc8-a2bda40df286)
 
 #### .loc and .iloc
 .loc and .iloc are essential methods for selecting data by label and position in pandas DataFrames (relational data structures) within Jupyter notebooks. They provide powerful and flexible ways to access and manipulate specific rows and columns.
@@ -130,12 +130,13 @@ Primarily used for selecting data by labels (explicit indexing) assigned to the 
  .iloc:
 Works with the integer positions (implicit indexing) of elements within the series. might be slightly faster for operations based on integer positions, especially for large datasets. However, the performance difference is often negligible for most use cases.
 
-(gambar)
+![Screenshot 2024-04-20 104218](https://github.com/Rnovranza/Python_Week_2/assets/101807673/990ec0ac-bd0c-4f95-917b-dd55c9c8e8b5)
 
 #### Dictionary
 A dictionary is a powerful way to provide initial data for a data series. Each key-value pair in the dictionary becomes a label-value pair in the series.
 
-(gambar)
+![Screenshot 2024-04-20 104255](https://github.com/Rnovranza/Python_Week_2/assets/101807673/78a7e64d-0a96-47ba-8213-478970042aae)
+
 
 ### Data Frame
 DataFrame in pandas is a fundamental data structure specifically designed for data analysis and manipulation in Python. It essentially acts as a powerful spreadsheet on steroids but with the added benefits of programming logic and automation. A DataFrame is indeed a collection of Series, where each Series represents a single column of data.
