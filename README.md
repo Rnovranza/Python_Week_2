@@ -106,14 +106,14 @@ data series is a one-dimensional labeled array you can use to work with data. It
 Indexing refers to how you label and retrieve data elements. There are two main types of indexing: implicit and explicit.
 
 Implicit Index:
--Relies on the positional order of data within the series.
--Similar to how you access elements in Python lists using numerical indexes (0, 1, 2, etc.).
--Starts from 0 (zero-based indexing).
+- Relies on the positional order of data within the series.
+- Similar to how you access elements in Python lists using numerical indexes (0, 1, 2, etc.).
+- Starts from 0 (zero-based indexing).
 
 Explicit Index:
--Uses custom labels assigned to each data point.
--Offers more meaningful and descriptive way to access data.
--You can set a column or another series as the index.
+- Uses custom labels assigned to each data point.
+- Offers more meaningful and descriptive way to access data.
+- You can set a column or another series as the index.
 
 (Gambar)
 
