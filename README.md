@@ -40,6 +40,61 @@ Since we only appended a value to the list without reassigning the variable, the
 ## Numpy
 NumPy is a Python library that provides multidimensional array objects, various derived objects (such as masked arrays and matrices), and various routines for fast operations on arrays, including math, logic, shape manipulation, sorting, selection, I/O, discrete Fourier transform, basic linear algebra, basic statistical operations, random simulation, and more.
 
+NumPy usually imported under the np alias.
+
+![Screen Shot 2024-04-20 at 05 53 23](https://github.com/Rnovranza/Python_Week_2/assets/121234567/0a378ea5-28ad-4fad-80ea-b89dfa9609aa)
+
+The fundamental object in NumPy is the ndarray (n-dimensional array). You can create ndarray objects using the array() function, passing in sequences like lists or tuples. This allows for efficient storage and manipulation of large data sets, making NumPy an essential tool for scientific computing and data analysis in Python.
+
+![Screen Shot 2024-04-20 at 05 40 11](https://github.com/Rnovranza/Python_Week_2/assets/121234567/0c5302df-3eca-437d-9f24-d94fc74958ab)
+
+The array() method in NumPy is quite flexible in what it can accept. You can pass in Python lists, tuples, or any other array-like object, and it will convert it into a NumPy ndarray. This flexibility makes it convenient to work with various data structures and seamlessly integrate them into your numerical computations using NumPy.
+
+![Screen Shot 2024-04-20 at 05 40 28](https://github.com/Rnovranza/Python_Week_2/assets/121234567/40e949b2-2b5e-476c-99f4-f749c4d73a2f)
+
+### Dimension In Arrays
+A dimension in an array refers to one level of nested arrays within it. There are several dimensions that we can recognize as follows:  
+
+#### 1. 0-D Arrays
+Scalars, also known as 0-D arrays, represent individual elements within an array structure. In essence, every value contained within an array constitutes a 0-D array.
+
+![Screen Shot 2024-04-20 at 05 42 22](https://github.com/Rnovranza/Python_Week_2/assets/121234567/c2b0f586-ed3c-4e17-a563-ee5b52864cb3)
+
+#### 2. 1-D Arrays
+A uni-dimensional or 1-D array typically consists of a single sequence of elements and is considered one of the most fundamental and commonly used array structures.
+
+![Screen Shot 2024-04-20 at 05 42 30](https://github.com/Rnovranza/Python_Week_2/assets/121234567/ccca583f-0fe6-41f4-b14a-62ca552c0659)
+
+#### 3. 2-D Arrays
+A 2-D array, also known as a two-dimensional array, consists of arrays (or lists) as its elements, each of which is itself a one-dimensional array. This structure is commonly used to represent matrices or 2nd order tensors.
+
+![Screen Shot 2024-04-20 at 06 46 37](https://github.com/Rnovranza/Python_Week_2/assets/121234567/4b5a6a5b-d480-44c7-b2b0-52a62cc7c3b8)
+
+#### 3. 3-D Arrays
+A 3-D array, also known as a three-dimensional array, comprises matrices (or 2-D arrays) as its elements. These arrays are commonly utilized to represent a 3rd order tensor.
+
+![Screen Shot 2024-04-20 at 05 42 42](https://github.com/Rnovranza/Python_Week_2/assets/121234567/650ca7df-2438-487d-b859-cf60714d28ae)
+
+In NumPy, the ndim attribute is used to determine the number of dimensions (or axes) of a NumPy array. It returns an integer value indicating the number of dimensions present in the array. This attribute is useful for understanding the structure of the array and for performing conditional operations based on the array's dimensionality.
+
+![Screen Shot 2024-04-20 at 05 42 55](https://github.com/Rnovranza/Python_Week_2/assets/121234567/9e334398-f53a-4f14-b2ef-1b1aae652211)
+
+Indexing an array in NumPy works similar to how you access elements in a Python list. You refer to a particular element in an array by specifying its index number. In NumPy, as in Python, indexing starts from 0, so the first element of the array has index 0, the second element has index 1, and so on. This convention makes it consistent with other programming languages and eases the manipulation of array elements. An example is as follows:
+
+![Screen Shot 2024-04-20 at 05 43 25](https://github.com/Rnovranza/Python_Week_2/assets/121234567/c6cdeadf-cc9e-463f-9df0-5f1b748e85ea)
+
+When working with 2-D arrays, you can use comma-separated integers within square brackets to specify both the row and column indices of the element you want to access. This notation resembles the way you'd reference cells in a table, where one index represents the row (dimension) and the other represents the column (index). This intuitive indexing scheme makes it easy to interact with the data stored in 2-D arrays, as you can directly address individual elements based on their row and column positions.
+
+![Screen Shot 2024-04-20 at 05 45 05](https://github.com/Rnovranza/Python_Week_2/assets/121234567/a5965308-f261-4b97-bae9-242d9ebfbfc2)
+
+When dealing with 3-D arrays, you extend the comma-separated indexing approach to include three integers inside square brackets. These integers represent the index along each dimension of the array. So, just like a 2-D array, you can think of a 3-D array as a stack of 2-D arrays (or matrices). Each integer specifies the index of an element along the respective dimension, allowing you to specify a particular element in the array. 
+
+![Screen Shot 2024-04-20 at 05 45 19](https://github.com/Rnovranza/Python_Week_2/assets/121234567/61aa07b7-99cb-481e-aa49-542a7dd109a2)
+
+Negative indexing in NumPy allows you to access elements of an array relative to the end of the array. For instance, if you want to access the last element of an array, you can use an index of -1. Similarly, -2 refers to the second-to-last element, and so on. This is particularly useful when you need to access elements near the end of the array and you don't know the exact length of the array. Here's an example:
+
+![Screen Shot 2024-04-20 at 07 04 55](https://github.com/Rnovranza/Python_Week_2/assets/121234567/7c47168d-955f-4916-a30f-60783fc63903)
+
 ## Pandas
 
 
